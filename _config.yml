@@ -1,0 +1,105 @@
+---
+layout: default
+title: Jasa Social Media Marketing
+robots: index, follow
+---
+
+# ===============================
+# INFORMASI DASAR SITUS (WAJIB)
+# ===============================
+title: auradigital
+description: >-
+  Jasa Buzzer Sosial Media Profesional untuk membuat brand dan konten Anda viral 
+  di TikTok, Instagram, Twitter, dan platform lainnya.
+url: "https://auradigital.site"
+baseurl: "" # karena kamu di root repo gh-pages
+lang: id
+
+# ===============================
+# PENULIS DAN BRAND (WAJIB)
+# ===============================
+author:
+  name: auradigital
+  email: candrabudiana20@gmail.com
+
+# ===============================
+# MEDIA SOSIAL (UNTUK SEO & OG TAG)
+# ===============================
+social:
+  name: auradigital
+  links:
+    - https://instagram.com/jasa.buzzerdigital.id
+    - https://twitter.com/auradigitalid
+    - https://facebook.com/auradigitalid
+    - https://t.me/auradigitalid
+
+# ===============================
+# GAMBAR DEFAULT UNTUK SHARE (OG IMAGE)
+# ===============================
+image: /assets/images/og-image.png
+
+# ===============================
+# META KEYWORDS (LANDSCAPE STYLE)
+# AKAN DIPANGGIL DI <HEAD> LAYOUT
+# ===============================
+keywords: jasa buzzer, buzzer instagram, buzzer tiktok, buzzer murah, jasa viral konten, promosi sosial media, jasa komentar, beli like, jasa endorse, jasa view tiktok, jasa komen, jasa share, beli followers, akun aktif indonesia
+
+# ===============================
+# SEO PLUGIN (WAJIB AKTIF)
+# ===============================
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-robots-txt
+
+# ===============================
+# GOOGLE SEARCH CONSOLE & ANALYTICS
+# ===============================
+google_site_verification: "isi_kode_verifikasi_googlemu"
+google_analytics: "G-XXXXXXXXXX"
+
+# ===============================
+# SITEMAP
+# ===============================
+sitemap:
+  filename: sitemap.xml
+  exclude:
+    - /assets/
+    - /drafts/
+  include_posts: true
+  changefreq: weekly
+  priority: 1.0
+
+# ===============================
+# ROBOTS.TXT OTOMATIS
+# ===============================
+robots:
+  sitemap: true
+  user-agent: "*"
+  allow: "/"
+
+# ===============================
+# DEFAULTS UNTUK SEMUA HALAMAN
+# ===============================
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      lang: id
+      permalink: /:title/
+
+# ===============================
+# SCHEMA.ORG STRUCTURE
+# ===============================
+organization:
+  name: auradigital
+  url: "https://auradigital.site"
+  logo: /assets/images/logo.png
+  sameAs:
+    - https://instagram.com/jasa.buzzerdigital.id
+    - https://twitter.com/auradigitalid
+    - https://t.me/auradigitalid
+    - https://facebook.com/auradigitalid
